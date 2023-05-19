@@ -1,0 +1,245 @@
+[
+    {
+        "id": "d20b7febf6dee223",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2c1f2f10eb0455d7",
+        "type": "udp in",
+        "z": "d20b7febf6dee223",
+        "name": "",
+        "iface": "",
+        "port": "7777",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "buffer",
+        "x": 80,
+        "y": 280,
+        "wires": [
+            [
+                "0e3e29f1a6bc6e72"
+            ]
+        ]
+    },
+    {
+        "id": "0e3e29f1a6bc6e72",
+        "type": "json",
+        "z": "d20b7febf6dee223",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 250,
+        "y": 280,
+        "wires": [
+            [
+                "e35badf0d279f620",
+                "55e22577d317ef91"
+            ]
+        ]
+    },
+    {
+        "id": "48d2b8595f69b6fc",
+        "type": "ui_text",
+        "z": "d20b7febf6dee223",
+        "group": "7f9eac38a47b5034",
+        "order": 1,
+        "width": 13,
+        "height": 7,
+        "name": "",
+        "label": "Busy Slot",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 700,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e35badf0d279f620",
+        "type": "function",
+        "z": "d20b7febf6dee223",
+        "name": "BusySlot",
+        "func": "var json = msg.payload;\nvar res = \"\";\nvar busy = 0;\nfor(const key of Object.keys(json)) {\n    if (!json[key].is_available) {\n        busy++;\n        res += \"Slot \" + json[key].slot_id;\n        res += \", Car parked : \" + json[key].last_car;\n        res += \", Departure time : \" + json[key].departure_time;\n        res += \"<br><br>\";\n    }\n}\nres += \"Total Car Parked : \" + busy;\nmsg.payload = res;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "48d2b8595f69b6fc",
+                "0efd09e499a25f8c"
+            ]
+        ]
+    },
+    {
+        "id": "55e22577d317ef91",
+        "type": "function",
+        "z": "d20b7febf6dee223",
+        "name": "FreeSlots",
+        "func": "var json = msg.payload;\nvar res = \"\";\nvar free = 0;\nfor (const key of Object.keys(json)) {\n    if (json[key].is_available) {\n        free++;\n        res += \"Slot \" + json[key].slot_id;\n        res += \", Last car parked : \" + json[key].last_car;\n        res += \", Departure time : \" + json[key].departure_time;\n        res += \"<br><br>\";\n    }\n}\nres += \"Total Free Parking slots : \" + free;\nmsg.payload = res;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 220,
+        "wires": [
+            [
+                "9a01030ed6ddad75",
+                "0efd09e499a25f8c"
+            ]
+        ]
+    },
+    {
+        "id": "9a01030ed6ddad75",
+        "type": "ui_text",
+        "z": "d20b7febf6dee223",
+        "group": "7f9eac38a47b5034",
+        "order": 3,
+        "width": 13,
+        "height": 7,
+        "name": "",
+        "label": "Free Slot",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 700,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ae799f10fb226ce9",
+        "type": "file",
+        "z": "d20b7febf6dee223",
+        "name": "smartparking",
+        "filename": "/home/rpi/Desktop/iot_lab/project/smartparking.log",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 830,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0efd09e499a25f8c",
+        "type": "function",
+        "z": "d20b7febf6dee223",
+        "name": "logFormatter",
+        "func": "const currentDate = new Date();\n\nconst year = currentDate.getFullYear();\nconst month = String(currentDate.getMonth() + 1).padStart(2, '0');\nconst day = String(currentDate.getDate()).padStart(2, '0');\n\nconst hours = String(currentDate.getHours()).padStart(2, '0');\nconst minutes = String(currentDate.getMinutes()).padStart(2, '0');\nconst seconds = String(currentDate.getSeconds()).padStart(2, '0');\nconst milliseconds = String(currentDate.getMilliseconds()).padStart(3, '0');\n\nconst formattedDate = `${year}-${month}-${day} ${hours}:${minutes}:${seconds},${milliseconds}`;\n\nvar log = \"[\" + formattedDate + \"] : \" + msg.payload;\nmsg.payload = log;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 260,
+        "wires": [
+            [
+                "ae799f10fb226ce9"
+            ]
+        ]
+    },
+    {
+        "id": "046310ea893dbfcc",
+        "type": "ui_spacer",
+        "z": "d20b7febf6dee223",
+        "name": "spacer",
+        "group": "7f9eac38a47b5034",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c637505c0a89f42e",
+        "type": "ui_spacer",
+        "z": "d20b7febf6dee223",
+        "name": "spacer",
+        "group": "7f9eac38a47b5034",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9ecc39c8560d17ad",
+        "type": "ui_spacer",
+        "z": "d20b7febf6dee223",
+        "name": "spacer",
+        "group": "7f9eac38a47b5034",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "034c0d3414b6787a",
+        "type": "ui_spacer",
+        "z": "d20b7febf6dee223",
+        "name": "spacer",
+        "group": "7f9eac38a47b5034",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0faaf12882d2a781",
+        "type": "ui_spacer",
+        "z": "d20b7febf6dee223",
+        "name": "spacer",
+        "group": "7f9eac38a47b5034",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "18724b4979f993a1",
+        "type": "ui_spacer",
+        "z": "d20b7febf6dee223",
+        "name": "spacer",
+        "group": "7f9eac38a47b5034",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "14fc7a650decb298",
+        "type": "ui_spacer",
+        "z": "d20b7febf6dee223",
+        "name": "spacer",
+        "group": "7f9eac38a47b5034",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7f9eac38a47b5034",
+        "type": "ui_group",
+        "name": "Parking Status",
+        "tab": "79a95dd5d479a7f6",
+        "order": 1,
+        "disp": true,
+        "width": 27,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "79a95dd5d479a7f6",
+        "type": "ui_tab",
+        "name": "Smart Parking",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
