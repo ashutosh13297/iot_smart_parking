@@ -1,0 +1,100 @@
+[2023-05-16 16:02:02,669] : Total Car Parked : 0
+[2023-05-16 16:02:02,671] : Slot 1, Last car parked : 13, Departure time : 2023-05-16 16:01:58<br><br>Total Free Parking slots : 1
+[2023-05-16 16:02:09,003] : Slot 1, Car parked : 14, Departure time : 2023-05-16 16:02:13<br><br>Total Car Parked : 1
+[2023-05-16 16:02:09,005] : Total Free Parking slots : 0
+[2023-05-16 16:02:16,633] : Total Car Parked : 0
+[2023-05-16 16:02:16,636] : Slot 1, Last car parked : 14, Departure time : 2023-05-16 16:02:13<br><br>Total Free Parking slots : 1
+[2023-05-16 16:02:18,830] : Slot 1, Car parked : 15, Departure time : 2023-05-16 16:02:23<br><br>Total Car Parked : 1
+[2023-05-16 16:02:18,833] : Total Free Parking slots : 0
+[2023-05-16 16:02:27,679] : Total Car Parked : 0
+[2023-05-16 16:02:27,682] : Slot 1, Last car parked : 15, Departure time : 2023-05-16 16:02:23<br><br>Total Free Parking slots : 1
+[2023-05-16 16:02:28,186] : Slot 1, Car parked : 16, Departure time : 2023-05-16 16:02:35<br><br>Total Car Parked : 1
+[2023-05-16 16:02:28,189] : Total Free Parking slots : 0
+[2023-05-16 16:02:38,826] : Total Car Parked : 0
+[2023-05-16 16:02:38,829] : Slot 1, Last car parked : 16, Departure time : 2023-05-16 16:02:35<br><br>Total Free Parking slots : 1
+[2023-05-16 16:02:38,836] : Slot 1, Car parked : 17, Departure time : 2023-05-16 16:02:42<br><br>Total Car Parked : 1
+[2023-05-16 16:02:38,839] : Total Free Parking slots : 0
+[2023-05-16 16:02:39,330] : Slot 1, Car parked : 17, Departure time : 2023-05-16 16:02:42<br><br>Total Car Parked : 1
+[2023-05-16 16:02:39,333] : Slot 2, Last car parked : null, Departure time : null<br><br>Total Free Parking slots : 1
+[2023-05-16 16:02:43,745] : Slot 1, Car parked : 17, Departure time : 2023-05-16 16:02:42<br><br>Slot 2, Car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Total Car Parked : 2
+[2023-05-16 16:02:43,748] : Total Free Parking slots : 0
+[2023-05-16 16:02:43,751] : Slot 1, Car parked : 17, Departure time : 2023-05-16 16:02:42<br><br>Slot 2, Car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Total Car Parked : 2
+[2023-05-16 16:02:43,753] : Slot 3, Last car parked : null, Departure time : null<br><br>Total Free Parking slots : 1
+[2023-05-16 16:02:44,166] : Slot 1, Car parked : 17, Departure time : 2023-05-16 16:02:42<br><br>Slot 2, Car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Total Car Parked : 2
+[2023-05-16 16:02:44,169] : Slot 3, Last car parked : null, Departure time : null<br><br>Slot 4, Last car parked : null, Departure time : null<br><br>Total Free Parking slots : 2
+[2023-05-16 16:02:46,928] : Slot 2, Car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Total Car Parked : 1
+[2023-05-16 16:02:46,931] : Slot 1, Last car parked : 17, Departure time : 2023-05-16 16:02:42<br><br>Slot 3, Last car parked : null, Departure time : null<br><br>Slot 4, Last car parked : null, Departure time : null<br><br>Total Free Parking slots : 3
+[2023-05-16 16:02:53,178] : Slot 2, Car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Slot 3, Car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Total Car Parked : 2
+[2023-05-16 16:02:53,185] : Slot 1, Last car parked : 17, Departure time : 2023-05-16 16:02:42<br><br>Slot 4, Last car parked : null, Departure time : null<br><br>Total Free Parking slots : 2
+[2023-05-16 16:02:55,299] : Slot 3, Car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Total Car Parked : 1
+[2023-05-16 16:02:55,301] : Slot 1, Last car parked : 17, Departure time : 2023-05-16 16:02:42<br><br>Slot 2, Last car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Slot 4, Last car parked : null, Departure time : null<br><br>Total Free Parking slots : 3
+[2023-05-16 16:02:58,882] : Slot 3, Car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Slot 4, Car parked : 20, Departure time : 2023-05-16 16:03:07<br><br>Total Car Parked : 2
+[2023-05-16 16:02:58,885] : Slot 1, Last car parked : 17, Departure time : 2023-05-16 16:02:42<br><br>Slot 2, Last car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Total Free Parking slots : 2
+[2023-05-16 16:03:07,205] : Slot 1, Car parked : 21, Departure time : 2023-05-16 16:03:06<br><br>Slot 3, Car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Slot 4, Car parked : 20, Departure time : 2023-05-16 16:03:07<br><br>Total Car Parked : 3
+[2023-05-16 16:03:07,208] : Slot 2, Last car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Total Free Parking slots : 1
+[2023-05-16 16:03:09,775] : Slot 3, Car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Slot 4, Car parked : 20, Departure time : 2023-05-16 16:03:07<br><br>Total Car Parked : 2
+[2023-05-16 16:03:09,778] : Slot 1, Last car parked : 21, Departure time : 2023-05-16 16:03:06<br><br>Slot 2, Last car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Total Free Parking slots : 2
+[2023-05-16 16:03:11,070] : Slot 3, Car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Total Car Parked : 1
+[2023-05-16 16:03:11,073] : Slot 1, Last car parked : 21, Departure time : 2023-05-16 16:03:06<br><br>Slot 2, Last car parked : 18, Departure time : 2023-05-16 16:02:51<br><br>Slot 4, Last car parked : 20, Departure time : 2023-05-16 16:03:07<br><br>Total Free Parking slots : 3
+[2023-05-16 16:03:15,080] : Slot 2, Car parked : 22, Departure time : 2023-05-16 16:03:18<br><br>Slot 3, Car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Total Car Parked : 2
+[2023-05-16 16:03:15,083] : Slot 1, Last car parked : 21, Departure time : 2023-05-16 16:03:06<br><br>Slot 4, Last car parked : 20, Departure time : 2023-05-16 16:03:07<br><br>Total Free Parking slots : 2
+[2023-05-16 16:03:20,786] : Slot 2, Car parked : 22, Departure time : 2023-05-16 16:03:18<br><br>Total Car Parked : 1
+[2023-05-16 16:03:20,789] : Slot 1, Last car parked : 21, Departure time : 2023-05-16 16:03:06<br><br>Slot 3, Last car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Slot 4, Last car parked : 20, Departure time : 2023-05-16 16:03:07<br><br>Total Free Parking slots : 3
+[2023-05-16 16:03:22,526] : Total Car Parked : 0
+[2023-05-16 16:03:22,529] : Slot 1, Last car parked : 21, Departure time : 2023-05-16 16:03:06<br><br>Slot 2, Last car parked : 22, Departure time : 2023-05-16 16:03:18<br><br>Slot 3, Last car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Slot 4, Last car parked : 20, Departure time : 2023-05-16 16:03:07<br><br>Total Free Parking slots : 4
+[2023-05-16 16:03:24,376] : Slot 1, Car parked : 23, Departure time : 2023-05-16 16:03:24<br><br>Total Car Parked : 1
+[2023-05-16 16:03:24,379] : Slot 2, Last car parked : 22, Departure time : 2023-05-16 16:03:18<br><br>Slot 3, Last car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Slot 4, Last car parked : 20, Departure time : 2023-05-16 16:03:07<br><br>Total Free Parking slots : 3
+[2023-05-16 16:03:27,770] : Total Car Parked : 0
+[2023-05-16 16:03:27,773] : Slot 1, Last car parked : 23, Departure time : 2023-05-16 16:03:24<br><br>Slot 2, Last car parked : 22, Departure time : 2023-05-16 16:03:18<br><br>Slot 3, Last car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Slot 4, Last car parked : 20, Departure time : 2023-05-16 16:03:07<br><br>Total Free Parking slots : 4
+[2023-05-16 16:03:30,217] : Slot 4, Car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Car Parked : 1
+[2023-05-16 16:03:30,219] : Slot 1, Last car parked : 23, Departure time : 2023-05-16 16:03:24<br><br>Slot 2, Last car parked : 22, Departure time : 2023-05-16 16:03:18<br><br>Slot 3, Last car parked : 19, Departure time : 2023-05-16 16:03:16<br><br>Total Free Parking slots : 3
+[2023-05-16 16:03:35,932] : Slot 3, Car parked : 25, Departure time : 2023-05-16 16:03:36<br><br>Slot 4, Car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Car Parked : 2
+[2023-05-16 16:03:35,935] : Slot 1, Last car parked : 23, Departure time : 2023-05-16 16:03:24<br><br>Slot 2, Last car parked : 22, Departure time : 2023-05-16 16:03:18<br><br>Total Free Parking slots : 2
+[2023-05-16 16:03:41,700] : Slot 4, Car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Car Parked : 1
+[2023-05-16 16:03:41,703] : Slot 1, Last car parked : 23, Departure time : 2023-05-16 16:03:24<br><br>Slot 2, Last car parked : 22, Departure time : 2023-05-16 16:03:18<br><br>Slot 3, Last car parked : 25, Departure time : 2023-05-16 16:03:36<br><br>Total Free Parking slots : 3
+[2023-05-16 16:03:44,762] : Slot 2, Car parked : 26, Departure time : 2023-05-16 16:03:42<br><br>Slot 4, Car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Car Parked : 2
+[2023-05-16 16:03:44,765] : Slot 1, Last car parked : 23, Departure time : 2023-05-16 16:03:24<br><br>Slot 3, Last car parked : 25, Departure time : 2023-05-16 16:03:36<br><br>Total Free Parking slots : 2
+[2023-05-16 16:03:46,410] : Slot 4, Car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Car Parked : 1
+[2023-05-16 16:03:46,413] : Slot 1, Last car parked : 23, Departure time : 2023-05-16 16:03:24<br><br>Slot 2, Last car parked : 26, Departure time : 2023-05-16 16:03:42<br><br>Slot 3, Last car parked : 25, Departure time : 2023-05-16 16:03:36<br><br>Total Free Parking slots : 3
+[2023-05-16 16:03:50,923] : Slot 1, Car parked : 27, Departure time : 2023-05-16 16:03:51<br><br>Slot 4, Car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Car Parked : 2
+[2023-05-16 16:03:50,925] : Slot 2, Last car parked : 26, Departure time : 2023-05-16 16:03:42<br><br>Slot 3, Last car parked : 25, Departure time : 2023-05-16 16:03:36<br><br>Total Free Parking slots : 2
+[2023-05-16 16:03:55,725] : Slot 4, Car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Car Parked : 1
+[2023-05-16 16:03:55,727] : Slot 1, Last car parked : 27, Departure time : 2023-05-16 16:03:51<br><br>Slot 2, Last car parked : 26, Departure time : 2023-05-16 16:03:42<br><br>Slot 3, Last car parked : 25, Departure time : 2023-05-16 16:03:36<br><br>Total Free Parking slots : 3
+[2023-05-16 16:03:57,453] : Slot 3, Car parked : 28, Departure time : 2023-05-16 16:03:55<br><br>Slot 4, Car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Car Parked : 2
+[2023-05-16 16:03:57,456] : Slot 1, Last car parked : 27, Departure time : 2023-05-16 16:03:51<br><br>Slot 2, Last car parked : 26, Departure time : 2023-05-16 16:03:42<br><br>Total Free Parking slots : 2
+[2023-05-16 16:03:59,665] : Slot 4, Car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Car Parked : 1
+[2023-05-16 16:03:59,668] : Slot 1, Last car parked : 27, Departure time : 2023-05-16 16:03:51<br><br>Slot 2, Last car parked : 26, Departure time : 2023-05-16 16:03:42<br><br>Slot 3, Last car parked : 28, Departure time : 2023-05-16 16:03:55<br><br>Total Free Parking slots : 3
+[2023-05-16 16:04:05,208] : Total Car Parked : 0
+[2023-05-16 16:04:05,211] : Slot 1, Last car parked : 27, Departure time : 2023-05-16 16:03:51<br><br>Slot 2, Last car parked : 26, Departure time : 2023-05-16 16:03:42<br><br>Slot 3, Last car parked : 28, Departure time : 2023-05-16 16:03:55<br><br>Slot 4, Last car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Free Parking slots : 4
+[2023-05-16 16:04:06,285] : Slot 2, Car parked : 29, Departure time : 2023-05-16 16:04:06<br><br>Total Car Parked : 1
+[2023-05-16 16:04:06,288] : Slot 1, Last car parked : 27, Departure time : 2023-05-16 16:03:51<br><br>Slot 3, Last car parked : 28, Departure time : 2023-05-16 16:03:55<br><br>Slot 4, Last car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Free Parking slots : 3
+[2023-05-16 16:04:10,481] : Total Car Parked : 0
+[2023-05-16 16:04:10,484] : Slot 1, Last car parked : 27, Departure time : 2023-05-16 16:03:51<br><br>Slot 2, Last car parked : 29, Departure time : 2023-05-16 16:04:06<br><br>Slot 3, Last car parked : 28, Departure time : 2023-05-16 16:03:55<br><br>Slot 4, Last car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Free Parking slots : 4
+[2023-05-16 16:04:12,818] : Slot 1, Car parked : 30, Departure time : 2023-05-16 16:04:15<br><br>Total Car Parked : 1
+[2023-05-16 16:04:12,821] : Slot 2, Last car parked : 29, Departure time : 2023-05-16 16:04:06<br><br>Slot 3, Last car parked : 28, Departure time : 2023-05-16 16:03:55<br><br>Slot 4, Last car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Free Parking slots : 3
+[2023-05-16 16:04:19,538] : Slot 1, Car parked : 30, Departure time : 2023-05-16 16:04:15<br><br>Slot 3, Car parked : 31, Departure time : 2023-05-16 16:04:20<br><br>Total Car Parked : 2
+[2023-05-16 16:04:19,541] : Slot 2, Last car parked : 29, Departure time : 2023-05-16 16:04:06<br><br>Slot 4, Last car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Free Parking slots : 2
+[2023-05-16 16:04:19,929] : Slot 3, Car parked : 31, Departure time : 2023-05-16 16:04:20<br><br>Total Car Parked : 1
+[2023-05-16 16:04:19,932] : Slot 1, Last car parked : 30, Departure time : 2023-05-16 16:04:15<br><br>Slot 2, Last car parked : 29, Departure time : 2023-05-16 16:04:06<br><br>Slot 4, Last car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Free Parking slots : 3
+[2023-05-16 16:04:23,789] : Total Car Parked : 0
+[2023-05-16 16:04:23,792] : Slot 1, Last car parked : 30, Departure time : 2023-05-16 16:04:15<br><br>Slot 2, Last car parked : 29, Departure time : 2023-05-16 16:04:06<br><br>Slot 3, Last car parked : 31, Departure time : 2023-05-16 16:04:20<br><br>Slot 4, Last car parked : 24, Departure time : 2023-05-16 16:04:01<br><br>Total Free Parking slots : 4
+[2023-05-16 16:04:26,054] : Slot 4, Car parked : 32, Departure time : 2023-05-16 16:04:23<br><br>Total Car Parked : 1
+[2023-05-16 16:04:26,057] : Slot 1, Last car parked : 30, Departure time : 2023-05-16 16:04:15<br><br>Slot 2, Last car parked : 29, Departure time : 2023-05-16 16:04:06<br><br>Slot 3, Last car parked : 31, Departure time : 2023-05-16 16:04:20<br><br>Total Free Parking slots : 3
+[2023-05-16 16:04:28,143] : Total Car Parked : 0
+[2023-05-16 16:04:28,146] : Slot 1, Last car parked : 30, Departure time : 2023-05-16 16:04:15<br><br>Slot 2, Last car parked : 29, Departure time : 2023-05-16 16:04:06<br><br>Slot 3, Last car parked : 31, Departure time : 2023-05-16 16:04:20<br><br>Slot 4, Last car parked : 32, Departure time : 2023-05-16 16:04:23<br><br>Total Free Parking slots : 4
+[2023-05-16 16:04:32,784] : Slot 2, Car parked : 33, Departure time : 2023-05-16 16:04:30<br><br>Total Car Parked : 1
+[2023-05-16 16:04:32,787] : Slot 1, Last car parked : 30, Departure time : 2023-05-16 16:04:15<br><br>Slot 3, Last car parked : 31, Departure time : 2023-05-16 16:04:20<br><br>Slot 4, Last car parked : 32, Departure time : 2023-05-16 16:04:23<br><br>Total Free Parking slots : 3
+[2023-05-16 16:04:34,438] : Total Car Parked : 0
+[2023-05-16 16:04:34,441] : Slot 1, Last car parked : 30, Departure time : 2023-05-16 16:04:15<br><br>Slot 2, Last car parked : 33, Departure time : 2023-05-16 16:04:30<br><br>Slot 3, Last car parked : 31, Departure time : 2023-05-16 16:04:20<br><br>Slot 4, Last car parked : 32, Departure time : 2023-05-16 16:04:23<br><br>Total Free Parking slots : 4
+[2023-05-16 16:04:40,771] : Slot 1, Car parked : 34, Departure time : 2023-05-16 16:04:46<br><br>Total Car Parked : 1
+[2023-05-16 16:04:40,774] : Slot 2, Last car parked : 33, Departure time : 2023-05-16 16:04:30<br><br>Slot 3, Last car parked : 31, Departure time : 2023-05-16 16:04:20<br><br>Slot 4, Last car parked : 32, Departure time : 2023-05-16 16:04:23<br><br>Total Free Parking slots : 3
+[2023-05-16 16:04:50,485] : Slot 1, Car parked : 34, Departure time : 2023-05-16 16:04:46<br><br>Slot 3, Car parked : 35, Departure time : 2023-05-16 16:04:49<br><br>Total Car Parked : 2
+[2023-05-16 16:04:50,488] : Slot 2, Last car parked : 33, Departure time : 2023-05-16 16:04:30<br><br>Slot 4, Last car parked : 32, Departure time : 2023-05-16 16:04:23<br><br>Total Free Parking slots : 2
+[2023-05-16 16:04:50,845] : Slot 3, Car parked : 35, Departure time : 2023-05-16 16:04:49<br><br>Total Car Parked : 1
+[2023-05-16 16:04:50,848] : Slot 1, Last car parked : 34, Departure time : 2023-05-16 16:04:46<br><br>Slot 2, Last car parked : 33, Departure time : 2023-05-16 16:04:30<br><br>Slot 4, Last car parked : 32, Departure time : 2023-05-16 16:04:23<br><br>Total Free Parking slots : 3
+[2023-05-16 16:04:54,004] : Total Car Parked : 0
+[2023-05-16 16:04:54,007] : Slot 1, Last car parked : 34, Departure time : 2023-05-16 16:04:46<br><br>Slot 2, Last car parked : 33, Departure time : 2023-05-16 16:04:30<br><br>Slot 3, Last car parked : 35, Departure time : 2023-05-16 16:04:49<br><br>Slot 4, Last car parked : 32, Departure time : 2023-05-16 16:04:23<br><br>Total Free Parking slots : 4
+[2023-05-16 16:04:56,544] : Slot 4, Car parked : 36, Departure time : 2023-05-16 16:04:55<br><br>Total Car Parked : 1
+[2023-05-16 16:04:56,547] : Slot 1, Last car parked : 34, Departure time : 2023-05-16 16:04:46<br><br>Slot 2, Last car parked : 33, Departure time : 2023-05-16 16:04:30<br><br>Slot 3, Last car parked : 35, Departure time : 2023-05-16 16:04:49<br><br>Total Free Parking slots : 3
+[2023-05-16 16:04:59,261] : Total Car Parked : 0
+[2023-05-16 16:04:59,264] : Slot 1, Last car parked : 34, Departure time : 2023-05-16 16:04:46<br><br>Slot 2, Last car parked : 33, Departure time : 2023-05-16 16:04:30<br><br>Slot 3, Last car parked : 35, Departure time : 2023-05-16 16:04:49<br><br>Slot 4, Last car parked : 36, Departure time : 2023-05-16 16:04:55<br><br>Total Free Parking slots : 4
