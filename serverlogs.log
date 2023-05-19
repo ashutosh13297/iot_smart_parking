@@ -1,0 +1,50 @@
+2023-05-19 20:29:07,406 - [Server] - Starting MQTT Thread.
+2023-05-19 20:29:07,406 - [Server] - Starting Server Thread.
+2023-05-19 20:29:07,408 - [Traffic-Client] - Socket server is up and running on port : 8888)
+2023-05-19 20:29:07,408 - [Traffic-Client] - Listing for connection...
+2023-05-19 20:29:07,495 - [MQTT Client] - Connected to MQTT Broker!
+2023-05-19 20:29:07,517 - [MQTT Client] - Record Read [parking_slot/availability] : 192.168.230.123
+2023-05-19 20:29:07,517 - [Node-Red Client] - Sending data to node-red client : {"1": {"slot_id": 1, "is_available": true, "last_car": null, "departure_time": null}}
+2023-05-19 20:29:07,517 - [Service] - No cars available in queue
+2023-05-19 20:29:10,551 - [Traffic-Client] - Received connection from: ('127.0.0.1', 55580)
+2023-05-19 20:29:19,818 - [Service] - Car 1 Arrived for parking.
+2023-05-19 20:29:19,819 - [Service] - Car's in queue : ['1']
+2023-05-19 20:29:19,819 - [Service] - Assigning parking slot...
+2023-05-19 20:29:19,819 - [MQTT Client] - Publishing [parking_slot/arrival_192.168.230.123] : 5
+2023-05-19 20:29:19,820 - [Node-Red Client] - Sending data to node-red client : {"1": {"slot_id": 1, "is_available": false, "last_car": "1", "departure_time": "2023-05-19 20:29:24"}}
+2023-05-19 20:29:19,820 - [Service] - Assigned parking slot [1] to car [1], for time : 5 sec
+2023-05-19 20:29:19,820 - [Service] - Parking slot available : []
+2023-05-19 20:29:19,820 - [Service] - Car's in queue : []
+2023-05-19 20:29:27,051 - [MQTT Client] - Record Read [parking_slot/availability] : 192.168.230.123
+2023-05-19 20:29:27,052 - [Node-Red Client] - Sending data to node-red client : {"1": {"slot_id": 1, "is_available": true, "last_car": "1", "departure_time": "2023-05-19 20:29:24"}}
+2023-05-19 20:29:27,052 - [Service] - No cars available in queue
+2023-05-19 20:29:27,586 - [Service] - Car 2 Arrived for parking.
+2023-05-19 20:29:27,586 - [Service] - Car's in queue : ['2']
+2023-05-19 20:29:27,587 - [Service] - Assigning parking slot...
+2023-05-19 20:29:27,587 - [MQTT Client] - Publishing [parking_slot/arrival_192.168.230.123] : 0
+2023-05-19 20:29:27,587 - [Node-Red Client] - Sending data to node-red client : {"1": {"slot_id": 1, "is_available": false, "last_car": "2", "departure_time": "2023-05-19 20:29:27"}}
+2023-05-19 20:29:27,588 - [Service] - Assigned parking slot [1] to car [2], for time : 0 sec
+2023-05-19 20:29:27,588 - [Service] - Parking slot available : []
+2023-05-19 20:29:27,589 - [Service] - Car's in queue : []
+2023-05-19 20:29:28,892 - [MQTT Client] - Record Read [parking_slot/availability] : 192.168.230.123
+2023-05-19 20:29:28,892 - [Node-Red Client] - Sending data to node-red client : {"1": {"slot_id": 1, "is_available": true, "last_car": "2", "departure_time": "2023-05-19 20:29:27"}}
+2023-05-19 20:29:28,893 - [Service] - No cars available in queue
+2023-05-19 20:29:35,627 - [Service] - Car 3 Arrived for parking.
+2023-05-19 20:29:35,627 - [Service] - Car's in queue : ['3']
+2023-05-19 20:29:35,627 - [Service] - Assigning parking slot...
+2023-05-19 20:29:35,628 - [MQTT Client] - Publishing [parking_slot/arrival_192.168.230.123] : 1
+2023-05-19 20:29:35,628 - [Node-Red Client] - Sending data to node-red client : {"1": {"slot_id": 1, "is_available": false, "last_car": "3", "departure_time": "2023-05-19 20:29:36"}}
+2023-05-19 20:29:35,628 - [Service] - Assigned parking slot [1] to car [3], for time : 1 sec
+2023-05-19 20:29:35,628 - [Service] - Parking slot available : []
+2023-05-19 20:29:35,628 - [Service] - Car's in queue : []
+2023-05-19 20:29:37,905 - [MQTT Client] - Record Read [parking_slot/availability] : 192.168.230.123
+2023-05-19 20:29:37,906 - [Node-Red Client] - Sending data to node-red client : {"1": {"slot_id": 1, "is_available": true, "last_car": "3", "departure_time": "2023-05-19 20:29:36"}}
+2023-05-19 20:29:37,906 - [Service] - No cars available in queue
+2023-05-19 20:29:44,015 - [Service] - Car 4 Arrived for parking.
+2023-05-19 20:29:44,015 - [Service] - Car's in queue : ['4']
+2023-05-19 20:29:44,015 - [Service] - Assigning parking slot...
+2023-05-19 20:29:44,016 - [MQTT Client] - Publishing [parking_slot/arrival_192.168.230.123] : 2
+2023-05-19 20:29:44,016 - [Node-Red Client] - Sending data to node-red client : {"1": {"slot_id": 1, "is_available": false, "last_car": "4", "departure_time": "2023-05-19 20:29:46"}}
+2023-05-19 20:29:44,016 - [Service] - Assigned parking slot [1] to car [4], for time : 2 sec
+2023-05-19 20:29:44,016 - [Service] - Parking slot available : []
+2023-05-19 20:29:44,016 - [Service] - Car's in queue : []
